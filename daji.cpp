@@ -2,8 +2,8 @@
 
 int main()
 {
-    std::string start = "\e[1;33;4;41m";
-    std::string end   = "\e[m";
+  std::string start("\e[1;33;4;41m");
+  std::string end("\e[m");
 
     std::cout << start << "牛年大吉！"       << end << "\n";
     std::cout << start << "  牛年吉祥！"     << end << "\n";
